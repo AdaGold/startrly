@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  width: 100%
+}
+
+/* nav bar has three columns */
+nav ul {
+  display: grid;
+  grid-template-columns: 70% 15% 15%;
+}
+
+/* change background color and fix position of nav */
+.main-container nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: slategray;
+  border-bottom: #333
+}
+
+/* align the welcome sub and button */
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10%
+}
+
+.welcome h1, sub {
+  font-size: 3em;
+  padding: 5px
+}
+
+/* make button black and green on hover */
+.button {
+  display: flex;
+  font-size: 1em;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome div {
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: greenyellow;
+  color: black;
+  border: 2px solid transparent;
+  border-radius: 8px;
+
+}
+
+/* align quotes to center and author to bottom right */
+.quote {
+  padding: 1em;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+}
+
+.quote p {
+  align-self: flex-end;
+  margin-right: 5%
+}
+
+blockquote {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+sub {
+font-size: 1em;
+margin-bottom: 5vh;
+}
+
+
+.why-startrly h2{
+  text-align: center;
+}
+
+.why-startrly ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+}
+
+.why-startrly li {
+  padding: 1em;
+}
+
+.why-startrly img {
+  float: left;
+  padding-right: 2px
+}
+
+
+.meet-team h2 {
+  text-align: center;
+}
+
+.meet-team ul {
+  width: 70%;
+  margin: auto;
+}
+
+.first-three, .last-two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+
+.meet-team img {
+  border-radius: 50%
+}
+
+.sponsors h2 {
+  margin-top: 10vh;
+  text-align: center;
+}
+.sponsors ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.sponsors li {
+  margin: 0.5em;
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  display: flex;
+}
+
+.footer div {
+  padding: 0 10em 0 2em
+}
+
+.footer ul {
+  padding-left: 0%
+}
