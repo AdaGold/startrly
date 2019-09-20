@@ -5,7 +5,7 @@ body {
 }
 
 /* nav bar has three columns */
-nav ul {
+nav ul li {
   display: grid;
   grid-template-columns: 70% 15% 15%;
 }
